@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+}
+
+.navigation {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(229, 229, 229, 0.5);
+}
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navigation ul li:hover a {
+    background-color: black;
+    color: #ffffff;
+}
